@@ -1,0 +1,44 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .main img:hover{
+    transform: scale(1.04);
+    transition-duration: 1s;
+
+ }
+ .main .maintext{
+    margin-top: 144px;
+ }
+ .maintext h1{
+    font-size: 64px;
+ }
+ .maintext .top{
+    color: rgb(41, 216, 216);
+ }
+ .maintext button{
+    width:145px;
+    height: 40px;
+    background-color: aqua;
+    border: none;
+    font-size: 22px;
+    color: white;
+    margin-top: 24px;
+ }
+ .maintext p{
+    margin-top: 24px;
+ }
+ .maintext button:hover{
+    border: 3px solid rgb(4, 87, 87);
+    background-color: transparent;
+    color: rgb(8, 92, 92);
+ }
+ .main img{
+    margin-top: 30px;
+    width: 40vw;
+    height: 95vh;
+   box-sizing: border-box;
+   object-fit: cover;
+    
+ }
